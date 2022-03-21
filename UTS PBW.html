@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Farah Fadila Rahman">
+    <link rel="stylesheet" href="Bootstrap/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="UTS PBW.css">
+    <title>UTS PBW</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        var myCarousel = document.querySelector('#homepage')
+        var carousel = new bootstrap.Carousel(homepage, {
+            interval: 100,
+            wrap: true
+        })
+    </script>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #DAF1DE;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Assets/earth-green-svgrepo-com.svg" alt="GreenPeace" width="30" height="30" class="d-inline-block align-text-top">
+                <span class="navbar-brand mb-0 h1 fw-bold">GreenPeace</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex flex-row-reverse collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="#homepage" style="color: #62733F">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog" style="color: #62733F">Blog</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#about" style="color: #62733F">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: #62733F">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="homepage" id="homepage">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Assets/geran-de-klerk-qzgN45hseN0-unsplash.jpg" class="d-block w-100" alt="Homepage1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>GreenPeace #1</h5>
+                  <p>Let's save our forest!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/veeterzy-sMQiL_2v4vs-unsplash.jpg" class="d-block w-100" alt="Homepage2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>GreenPeace #2</h5>
+                  <p>Forest is our home.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Assets/marita-kavelashvili-ugnrXk1129g-unsplash.jpg" class="d-block w-100" alt="Homepage3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>GreenPeace #3</h5>
+                  <p>Forest is our best friend.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container mt-5 mb-5" id="blog">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/alcy-filho-t3sX6g5vyV0-unsplash.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Article 1</h5>
+                    <p class="card-text"><small class="text-muted">Farah Fadila Rahman | Posted on 15 March 2022</small></p>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos adipisci ullam rerum sunt magni perferendis ab fugiat asperiores exercitationem autem!</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/francesco-gallarotti-ruQHpukrN7c-unsplash.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Article 2</h5>
+                    <p class="card-text"><small class="text-muted">Farah Fadila Rahman | Posted on 15 March 2022</small></p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ut provident est. Enim, vel eligendi a cupiditate molestias doloremque aspernatur!</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/nuril-ahsan-Qq63lDjlzqc-unsplash.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Article 3</h5>
+                    <p class="card-text"><small class="text-muted">Farah Fadila Rahman | Posted on 15 March 2022</small></p>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro distinctio vitae enim. Dignissimos impedit optio enim consequatur incidunt sapiente obcaecati.</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/ravin-rau-eNOlrYUx5ZQ-unsplash.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Article 4</h5>
+                    <p class="card-text"><small class="text-muted">Farah Fadila Rahman | Posted on 15 March 2022</small></p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iure pariatur in cumque numquam ducimus eaque eius voluptatem, ab doloribus!</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/ritik-gupta-OMds7vjklgM-unsplash.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Article 5</h5>
+                    <p class="card-text"><small class="text-muted">Farah Fadila Rahman | Posted on 15 March 2022</small></p>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci repellat nisi quia impedit saepe officiis officia provident aspernatur quod cupiditate.</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/sanni-sahil-7q0bLZHYEKM-unsplash.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                    <h5 class="card-title">Article 6</h5>
+                    <p class="card-text"><small class="text-muted">Farah Fadila Rahman | Posted on 15 March 2022</small></p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rem assumenda minus deserunt sunt nemo aperiam, eius maiores reiciendis commodi?</p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col-6">
+                <h1>About<br>GreenPeace</h1>
+                <h6>"GreenPeace is a public community campaigning for people to save and protect our forests."</h6>
+            </div>
+            <div class="col-6">
+                <img src="Assets/go-green.png" class="img-fluid" alt="About GreenPeace">
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you need help, please contact us via the form below.</p>
+        
+        <form>
+            <div class="mb-3 mt-4">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="row g-3 mb-3">
+                <div class="col">
+                    <label for="exampleInputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" placeholder="Enter first name" aria-label="First name" id="exampleInputFirstName">
+                </div>
+                <div class="col">
+                    <label for="exampleInputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Enter last name" aria-label="Last name" id="exampleInputLastName">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Type message"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions.</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <div class="comtainer mt-5" id="footer">
+        <h6>Made with ♡ by Farah Fadila Rahman</h6>
+    </div>
+</body>
+</html>
